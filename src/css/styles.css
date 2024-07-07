@@ -113,3 +113,68 @@
     font-weight: bold;
     margin-bottom: 5px;
 }
+
+/*Serviços*/
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-container p {
+    font-size: 17px;
+}
+
+.first-cnh ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.first-cnh li {
+    text-align: center;
+    background-color: #FFD700;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    padding: 10px 20px;
+}
+
+.first-cnh li h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #708090;
+    padding: 5px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.include-cnh ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.include-cnh li {
+    text-align: center;
+    background-color: #FFD700;
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+.include-cnh li h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #708090;
+    padding: 5px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
