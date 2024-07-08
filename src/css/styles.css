@@ -73,7 +73,6 @@
 
 .about-container ul {
     display: flex;
-    
     list-style: none;
     text-align: center;
     margin: 3rem 0;
@@ -217,4 +216,59 @@ footer {
     text-align: center;
     font-weight: bold;
     margin: 20px 0 150px;
+}
+
+/*responsividade*/
+
+/*celulares*/
+
+@media (max-width: 600px) {
+    html, 
+    body {
+        overflow-x: hidden;
+    }
+    .navbar-container  {
+        display: none;
+    }
+    .main-banner {
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-banner h1{
+        font-size: 40px;
+    }
+    .main-banner p {
+        font-size: 20px;
+    }
+    .about-container ul {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .about-container li {
+        width: 45%;
+    }
+    .about-container li i {
+        font-size: 35px;
+    }
+    .about-container h3 {
+        font-size: 15px;
+    }
+    .first-cnh ul {
+        flex-direction: column;
+    }
+    .first-cnh li {
+        width: 90%;
+        height: 250px;
+    }
+    .include-cnh ul {
+        flex-direction: column;
+    }
+    .include-cnh li {
+        width: 90%;
+        height: 150px;
+    }
 }
