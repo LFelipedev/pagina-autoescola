@@ -211,5 +211,10 @@
     font-size: 18px;
     margin-bottom: 3px;
 }
+/*footer*/
 
-
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 150px;
+}
