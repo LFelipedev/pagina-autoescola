@@ -198,12 +198,18 @@
     margin-bottom: 5px;
 }
 
+.contact-container ul {
+    padding: 5px 0;
+}
+
 .contacts h5 {
     font-size: 24px;
+    margin-bottom: 5px;
 }
 
 .contacts p {
     font-size: 18px;
+    margin-bottom: 3px;
 }
 
 
